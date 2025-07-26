@@ -1,0 +1,17 @@
+{
+  "bonus": {
+    "delete": "DELETE BLOCK",
+    "swap": "SWAP BLOCKS",
+	"shuffle": "SHUFFLE BLOCKS"
+  },
+  "lose": {
+  	"title": "GAME OVER"
+  },
+  "win": {
+  	"title": "WIN",
+	"bonus": "BONUS:"
+  },
+  "wow": {
+  	"title": "WOW!"
+  }
+}
