@@ -13,23 +13,33 @@
             background-color: #f0f0f0;
         }
         .iframe-container {
+            width: 247px;
+            height: 430px;
             border: 2px solid #ccc;
-            padding: 10px;
+            padding: 0;
             background-color: #fff;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
         }
         iframe {
             display: block;
             width: 247px;
             height: 430px;
             border: none;
+            overflow: hidden;
         }
     </style>
 </head>
 <body>
     <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
     <div class="iframe-container">
-        <iframe src="https://2248-puce.vercel.app/" width="247" height="430"></iframe>
+        <iframe 
+          src="https://2248-puce.vercel.app/" 
+          width="247" 
+          height="430" 
+          style="overflow:hidden;" 
+          scrolling="no">
+        </iframe>
     </div>
 </body>
 </html>
