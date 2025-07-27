@@ -1,7 +1,6 @@
 const C3 = self.C3;
 self.C3_GetObjectRefTable = function () {
 	return [
-		C3.Plugins.yagames_sdk,
 		C3.Plugins.Touch,
 		C3.Plugins.LocalStorage,
 		C3.Plugins.Audio,
@@ -99,7 +98,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Arr.Exps.CurX,
 		C3.Plugins.Arr.Exps.CurY,
 		C3.Plugins.System.Acts.RestartLayout,
-		C3.Plugins.yagames_sdk.Acts.SetLeaderboardScore,
 		C3.Plugins.TiledBg.Acts.SetInstanceVar,
 		C3.Plugins.TiledBg.Cnds.CompareInstanceVar,
 		C3.Plugins.TiledBg.Acts.SubInstanceVar,
@@ -112,7 +110,6 @@ self.C3_GetObjectRefTable = function () {
 	];
 };
 self.C3_JsPropNameTable = [
-	{YandexGamesSDK: 0},
 	{Touch: 0},
 	{LocalStorage: 0},
 	{Audio: 0},
@@ -185,7 +182,6 @@ self.C3_JsPropNameTable = [
 ];
 
 self.InstanceType = {
-	YandexGamesSDK: class extends C3.Plugins.yagames_sdk.Instance {},
 	Touch: class extends self.IInstance {},
 	LocalStorage: class extends self.IInstance {},
 	Audio: class extends self.IInstance {},

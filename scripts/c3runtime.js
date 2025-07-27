@@ -1513,7 +1513,6 @@ self.C3_ExpressionFuncs = [
 			const n15 = p._GetNode(15);
 			return () => or(or(or(((n0.ExpObject()) === (n1.ExpObject((n2.ExpObject() - 1), n3.ExpObject())) ? 1 : 0), ((n4.ExpObject()) === (n5.ExpObject((n6.ExpObject() + 1), n7.ExpObject())) ? 1 : 0)), ((n8.ExpObject()) === (n9.ExpObject(n10.ExpObject(), (n11.ExpObject() - 1))) ? 1 : 0)), ((n12.ExpObject()) === (n13.ExpObject(n14.ExpObject(), (n15.ExpObject() + 1))) ? 1 : 0));
 		},
-		() => "besst",
 		() => 2,
 		() => 8,
 		() => "FixLongTap.css"
