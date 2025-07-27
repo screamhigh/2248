@@ -6,8 +6,12 @@ html, body {
 }
 
 body {
-	background: #424242;
+	background: #005ef5;
 	color: white;
+}
+
+input[type="file"] {
+	color: black;
 }
 
 html, body, canvas {
@@ -27,7 +31,7 @@ canvas, .c3htmlwrap {
 	pointer-events: none;
 }
 
-.c3htmlwrap > * {
+.c3htmlwrap[interactive] > * {
 	pointer-events: auto;
 }
 
